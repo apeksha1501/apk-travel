@@ -1,0 +1,424 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Happy Travel</title>
+        
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <!---Navbar-->  
+        <nav class="navbar navbar-expand-lg navbar-light main-navbar
+          bg m-navbar-light" id="main-navbar">
+          <div class="container">
+              <a class="navbar-brand"href="#">HAPPY TRAVEL</a>
+              <button class="navbar-toggler"type="button"data-toggle="collapse"
+              data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
+              aria-label="toggle-navigation">
+            <span>Menu</span>
+            </button>
+            
+        <div class="collapse navbar-collapse"id="my-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html"class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"class="nav-link">About</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a href="#"class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of navbar-->
+    <!---Hero-Image-->
+    <section class="hero-wrap"
+    style="background-image:url('images/hero.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters main-text align-items-center">
+            <div class="col-lg-7 col-md-6 d-flex align-items-end">
+                <div class="text">
+                    <h1 class="mb-4 text-capitalize">EXPLORE THE WORLD<br></h1>
+                    <h3 class="mb-4 text-capitalize">YOUR JOURNEY STARTS HERE<br></h3>
+                        
+                        
+                      
+                      <p style="font-size:18px;">
+                    <b>journey</b>.explore.discover..</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!---End of Hero-Image-->
+    <!---Search section-->
+<section>
+    <div class="section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 tab-search">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
+              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
+              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rents</a>
+              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
+            </div>
+          </div>
+          <div class="tab-content py-5" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <div class="block-17">
+                <form class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                   <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Flights">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
+
+                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+                    <div class="check-in one-third"><input type="text" id="start_date" class="form-control" placeholder="Start date"></div>
+
+                    <div class="check-out one-third"><input type="text" id="return_date" class="form-control" placeholder="Return date"></div>
+                    <div class="select-wrap one-third">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Guest</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3+</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
+                </form>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+              <div class="block-17">
+                <form action="" method="post" class="d-block d-lg-flex">
+                  <div class="fields d-block d-lg-flex">
+                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
+
+
+                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
+
+                    <div class="select-wrap one-third one-third-1">
+                      <div class="icon"></div>
+                      <select name="" id="" class="form-control">
+                        <option value="">Categories</option>
+                        <option value="">Suite</option>
+                        <option value="">Super Deluxe</option>
+                        <option value="">Economy</option>
+                        
+                      </select>
+                    </div>
+                  </div>
+                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!---End of Search section-->
+<!---Welcome/about section-->
+<section class="about-section mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 text-center heading-section mb-5">
+                <h2 class="text-black mb-2">Welcome </h2>
+                <p>Happy Travel  strongly believes and follows the concept of Kaizen i.e."change for the better”. It refers to the philosophy of continuous improvement of working practices to provide prompt and quality services with complete guest satisfation. <br>"Most Memorable Holiday!</p>
+            </div>
+        </div>
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                        <a href="#" class="effect">
+                            <img src="images/about-1.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!------->
+        <div class="row img-wrap mb-5 mb-lg-0">
+            <div class="col-12">
+                <div class="row">
+                    <div class="mb-4 margin-lg-0 col-lg-6">
+                        <a href="#" class="effect">
+                            <img src="images/about-2.jpg"alt=""
+                            class="img-fluid">
+                        </a>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <!------->
+        <img src="images/about-3.jpg"alt=""
+        class="img-fluid">
+    </a>
+</div>
+
+</div>
+</div>
+</div>
+<!------->
+</div>
+</section>
+
+<!------------->
+
+                        
+<!---Package Section-->
+<section class="package section-padding mt-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-5">
+                <div class="section-title text-center">
+                    <h2 class="py-3">Packages We Offer</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="images/fa-3.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
+                        <a href="#"class="btn-package p-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-md-6 col-xl-6">
+                <div class="package-1">
+                    <img src="images/fa-2.jpg"class="img-fluid"alt="">
+                    <div class="package-text">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
+                        <a href="#"class="btn-package p-2">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---End of Package Section-->
+<!---Customers Section-->
+<section class="testimonial-section mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Happy Customers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        26/04/2021
+                    </div>
+                    <h4>THAILAND CHOTA BREAK.
+
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>A fantastic tour with happy travel.
+                        .</p> 
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="images/team.jpg"alt="">
+                        </div>
+                        <div class="test-text">
+                            <h6>priyanka chopra, <span>hyadrabad</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            <div class="col-lg-6">
+                <div class="testimonial-item">
+                    <div class="test-date">
+                        09/08/2020
+                    </div>
+                    <h4>SHIMLA MANALI ECONOMY .
+
+                    </h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Entertaining from the started and unlimited fun</p>
+                    <div class="customer">
+                        <div class="customer-photo">
+                            <img src="images/team.jpg"alt="">
+                        </div>
+                        <div class="test-text">
+                            <h6>Sarah khan, <span>mumbai</span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----->
+            
+        </div>
+    </div>
+</section>
+<!---End of Customers Section-->
+<!---Contact Section-->
+<section class="contact mt-3">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="text-center">
+                Contact Us
+            </h2>
+            
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="icon-box">
+                            <i class="fas fa-share"></i>
+                            <h3>Social Profiles</h3>
+                            <div class="social-links">
+                                <a href="#"class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#"class="facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#"class="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>happytravel@gmail.com</p>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fas fa-phone"></i>
+                            <h3>24/7 support</h3>
+                            <p>+9846201111</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text"name="name"class="form-control"
+                            id="name"placeholder="your name">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email"name="email"class="form-control"
+                            id="email"placeholder="your email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control"name="subject"
+                        id="subject"placeholder="subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control"name="message"row="6"
+                        placeholder="Message"></textarea>
+                    </div>
+                    <div><a href="#" class="btn btn-about">Send Message</a></div>
+    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    </section> 
+    <!---End of Contact Section-->
+    
+
+  
+                    
+                    
+                    
+                    
+
+
+
+</html>
